@@ -883,11 +883,14 @@ a {
     .w3-modal-content {
         width: 900px
     }
-    .w3-hide-large {
+    /* .w3-hide-large {
         display: none!important
-    }
-    .w3-sidebar.w3-collapse {
+    } */
+    /* .w3-sidebar.w3-collapse {
         display: block!important
+    } */
+    .w3-sidebar.w3-collapse {
+        display: none
     }
 }
 
