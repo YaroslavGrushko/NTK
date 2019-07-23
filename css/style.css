@@ -1056,6 +1056,36 @@ a {
     padding: 0 8px
 }
 
+.w3-container1 {
+    background-image: url(../images/note.jpg);
+    background-size: 100% 100%;
+}
+
+.w3-container2 {
+    background-image: url(../images/pencil.jpg);
+    background-size: 100% 100%;
+}
+
+.w3-container3 {
+    background-image: url(../images/copybooks.jpg);
+    background-size: 100% 100%;
+}
+
+.w3-container4 {
+    background-image: url(../images/fancy-pens.jpg);
+    background-size: 100% 100%;
+}
+
+.w3-container5 {
+    background-image: url(../images/Umbrellas.jpg);
+    background-size: 100% 100%;
+}
+
+.w3-container6 {
+    background-image: url(../images/rods.jpg);
+    background-size: 100% 100%;
+}
+
 .w3-container,
 .w3-panel {
     padding: 0.01em 16px
@@ -1575,6 +1605,10 @@ a {
 .w3-hover-yellow:hover {
     color: #000!important;
     background-color: #ffeb3b!important
+}
+
+.w3-white {
+    margin-top: 100%;
 }
 
 .w3-white,
