@@ -1182,7 +1182,7 @@ a {
 }
 
 .w3-animate-fading {
-    animation: fading 10s infinite
+    animation: fading 5s infinite
 }
 
 @keyframes fading {
@@ -2007,6 +2007,9 @@ a {
     border-color: #e7ffff!important
 }
 
+
+/* load button*/
+
 .button {
     border: none;
     color: white;
@@ -2034,4 +2037,24 @@ a {
 .button2:hover {
     background-color: #555555;
     color: white;
+}
+
+
+/* image for slides*/
+
+.img_load {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 0 0;
+    border: 2px solid #1a394f;
+    /* border-radius: 50%;
+    box-shadow: 0 -5px 0 #3adbfd; */
+}
+
+
+/* caption for slides*/
+
+.caption {
+    width: 100%;
+    text-align: center;
 }
