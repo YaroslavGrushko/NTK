@@ -36,6 +36,10 @@ section {
     display: block
 }
 
+.center{
+    text-align: center
+}
+
 summary {
     display: list-item
 }
@@ -224,7 +228,8 @@ textarea {
 
 html,
 body {
-    font-family: Verdana, sans-serif;
+    /* font-family: Verdana, sans-serif; */
+    font-family: 'Jura', sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -267,7 +272,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Segoe UI", Arial, sans-serif;
+    /* font-family: 'Comfortaa', cursive; */
+       /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'Alegreya Sans', sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
