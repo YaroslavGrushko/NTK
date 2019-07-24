@@ -36,6 +36,10 @@ section {
     display: block
 }
 
+.center{
+    text-align: center
+}
+
 summary {
     display: list-item
 }
@@ -224,7 +228,8 @@ textarea {
 
 html,
 body {
-    font-family: Verdana, sans-serif;
+    /* font-family: Verdana, sans-serif; */
+    font-family: 'Jura', sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -267,7 +272,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Segoe UI", Arial, sans-serif;
+    /* font-family: 'Comfortaa', cursive; */
+       /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'Alegreya Sans', sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
@@ -559,6 +567,9 @@ a {
     width: 600px
 }
 
+
+/* mian-slider >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.mySlides {display:none}
 .w3-bar {
     width: 100%;
     overflow: hidden
@@ -602,7 +613,7 @@ a {
 .w3-bar-block.w3-center .w3-bar-item {
     text-align: center
 }
-
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<main-slier */
 .w3-block {
     display: block;
     width: 100%
@@ -1055,37 +1066,57 @@ a {
 .w3-row-padding>.w3-col {
     padding: 0 8px
 }
+.w3-container-image{
+    background-size: 100% 100%;
+}
 
 .w3-container1 {
     background-image: url(../images/note.jpg);
-    background-size: 100% 100%;
 }
 
 .w3-container2 {
     background-image: url(../images/pencil.jpg);
-    background-size: 100% 100%;
 }
 
 .w3-container3 {
     background-image: url(../images/copybooks.jpg);
-    background-size: 100% 100%;
 }
 
 .w3-container4 {
     background-image: url(../images/fancy-pens.jpg);
-    background-size: 100% 100%;
 }
 
 .w3-container5 {
     background-image: url(../images/Umbrellas.jpg);
-    background-size: 100% 100%;
 }
 
 .w3-container6 {
     background-image: url(../images/rods.jpg);
-    background-size: 100% 100%;
 }
 
+.w3-container7 {
+    background-image: url(../images/bag1.jpg);
+}
+
+.w3-container8 {
+    background-image: url(../images/bag2.jpg);
+}
+
+.w3-container9 {
+    background-image: url(../images/globe.jpg);
+}
+
+.w3-container10 {
+    background-image: url(../images/paper.jpg);
+}
+
+.w3-container11 {
+    background-image: url(../images/set1.jpg);
+}
+
+.w3-container12 {
+    background-image: url(../images/set2.jpg);
+}
 .w3-container,
 .w3-panel {
     padding: 0.01em 16px

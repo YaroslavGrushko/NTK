@@ -6,14 +6,16 @@ body {
 }
 
 .moving-zone {
+    display:flex;
+    justify-content: center;
     /* background: radial-gradient(#F5FCFF, #009688); */
-    background:#009688;
+    /* background:#009688; */
     /* position: absolute; */
     top:1%; left:50%;
     width:100%; 
     /* margin: -60px 0 0 -150px; */
-    padding-left: 40%;
     perspective: 800px;
+    padding:auto
 }
 .popup {
     /* position: absolute; */
